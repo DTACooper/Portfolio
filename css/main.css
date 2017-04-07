@@ -99,7 +99,6 @@ textarea {
    body {
       position: relative;
       margin: 0;
-      padding-bottom: 6rem;
       min-height: 100%
      font-family: "Helvetica Neue", Arial, sans-serif;
    }
@@ -185,12 +184,13 @@ textarea {
   color: white;
 }
 
-.header {
-
+.container {
+  padding: 0;
+  width: 100%;
 }
 
 .footer {
-  position: fixed;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
@@ -234,12 +234,19 @@ textarea {
 
    @media only screen and (min-width: 321px) {
        /* Larger mobile styles (wider than 320 pixels) */
+
    }
 
    @media only screen and (min-width: 600px) {
        /* Tablet styles (wider than 600 pixels) */
+       .footer {
+         position: fixed;
+       }
+       body {
+         padding-bottom: 8rem;
+       }
    }
-   
+
    @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px)  {
 
 	/* Force table to not be like tables anymore */
