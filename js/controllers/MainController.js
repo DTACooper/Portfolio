@@ -50,7 +50,64 @@ app.controller('MainController', ['$scope', function($scope) {
                     text:'Dealt with customers in the shop. Solved computer problems, received training in various areas of IT. Built computers to specification. '
                   }
                 ];
-
+  $scope.skills = [
+                  {
+                    skill:'HTML',
+                    time: '5+ Years',
+                    hobby: 'Yes',
+                    university: 'Yes',
+                    work: 'Yes'
+                  },
+                  {
+                    skill:'Javascript',
+                    time: 'Roughly 4 years',
+                    hobby: 'No',
+                    university: 'Yes',
+                    work: 'Yes'
+                  },
+                  {
+                    skill:'jQuery',
+                    time: 'Roughly 4 years',
+                    hobby: 'No',
+                    university: 'Yes',
+                    work: 'Yes'
+                  },
+                  {
+                    skill:'CSS',
+                    time: 'Roughly 4 years',
+                    hobby: 'Yes',
+                    university: 'Yes',
+                    work: 'Yes'
+                  },
+                  {
+                    skill:'Perl',
+                    time: '2 Years',
+                    hobby: 'No',
+                    university: 'Yes',
+                    work: 'Yes'
+                  },
+                  {
+                    skill:'PHP',
+                    time: '6 Months',
+                    hobby: 'No',
+                    university: 'Yes',
+                    work: 'No'
+                  },
+                  {
+                    skill:'Python',
+                    time: '6 Months',
+                    hobby: 'No',
+                    university: 'No',
+                    work: 'Yes'
+                  },
+                  {
+                    skill:'Django',
+                    time: '6 Months',
+                    hobby: 'No',
+                    university: 'No',
+                    work: 'Yes'
+                  }
+];
 
 
 }]);

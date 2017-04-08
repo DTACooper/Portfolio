@@ -1,1 +1,24 @@
-Skills
+<div class="container">
+  <div class="col-12">
+    <table ng-controller="MainController">
+      <thead>
+        <tr>
+          <th>Skill</th>
+          <th>Time</th>
+          <th>Hobby</th>
+          <th>University</th>
+          <th>Work</th>
+        </tr>
+      </thead>
+      <tbody ng-repeat="skill in skills">
+        <tr>
+          <td> {{ skill.skill }} </td>
+          <td> {{ skill.time }} </td>
+          <td> {{ skill.hobby }} </td>
+          <td> {{ skill.university }} </td>
+          <td> {{ skill.work }} </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
