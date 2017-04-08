@@ -1,1 +1,17 @@
-Education
+<div class="container">
+  <h1>Education</h1>
+</div>
+<div class="main" ng-controller="MainController">
+  <div class="container">
+    <div ng-repeat="qual in qualifications" class="col-12">
+      <div class="row">
+        <div class="col-2">
+          <p> {{ qual.startdate }} - {{ qual.enddate }}</p>
+        </div>
+        <div class="col-10">
+          <p> {{ qual.name }} </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

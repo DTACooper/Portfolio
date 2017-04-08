@@ -108,6 +108,38 @@ app.controller('MainController', ['$scope', function($scope) {
                     work: 'Yes'
                   }
 ];
+  $scope.qualifications = [
+                  {
+                    startdate: '09/2008',
+                    enddate: '07/2011',
+                    name: 'Digital Forensics 2:1 at Teesside University'
+                  },
+                  {
+                    startdate: '2005',
+                    enddate: '2006',
+                    name: 'Business and Administration Advanced Apprenticeship'
+                  },
+                  {
+                    startdate: '01/2004',
+                    enddate: '06/2004',
+                    name: 'Quality Diploma Unit D3 Tools and Techniques'
+                  },
+                  {
+                    startdate: '2004',
+                    enddate: '2004',
+                    name: 'Certificate in Internal Quality Auditing'
+                  },
+                  {
+                    startdate: '10/2001',
+                    enddate: '04/2003',
+                    name: 'NVQ Level 3 Using IT'
+                  },
+                  {
+                    startdate: '09/1999',
+                    enddate: '07/2001',
+                    name: 'GNVQ Advanced Information Technology'
+                  }
 
+  ];
 
 }]);
