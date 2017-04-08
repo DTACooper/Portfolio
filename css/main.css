@@ -148,7 +148,7 @@ textarea {
      font-weight: bold;
    }
    td, th {
-     padding: 6px;
+     padding: 6px !important;
      border: 1px solid #ccc;
      text-align: left;
    }
@@ -203,6 +203,24 @@ textarea {
 /* Google */
 .fa-google {
   background: #dd4b39;
+  color: white;
+}
+
+/* Youtube */
+.fa-youtube {
+  background: #C52F30;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #A1755C;
+  color: white;
+}
+
+/* Github */
+.fa-github {
+  background: #070709;
   color: white;
 }
 
