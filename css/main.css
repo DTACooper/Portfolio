@@ -180,9 +180,7 @@ textarea {
  color:#888;
 }
 
-.navbar {
-  background-color: #333;
-}
+
    .active {
     background-color: #4CAF50;
     color: white;
@@ -207,6 +205,7 @@ textarea {
 /* Add a hover effect if you want */
 .fa:hover {
     opacity: 0.7;
+    text-decoration: none;
 }
 
 /* Set a specific color for each brand */
@@ -268,6 +267,15 @@ textarea {
   background-color: #efefef;
   text-align: center;
 }
+
+.footer ul {
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
    /* 12-column responsive grid */
 
    .row {
