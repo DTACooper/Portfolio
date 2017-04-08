@@ -24,7 +24,7 @@
           <!-- <div class="help-block with-errors"></div> -->
         </div>
         <div class="form-group">
-        <button type="submit" class="btn btn-default btn-lg pull-right" ng-disabled="submitButtonDisabled">Submit</button>
+        <button type="submit" class="btn btn-default btn-lg pull-right" ng-submit="contactform.$invalid && submit(contactform) ">Submit</button>
 </div>
       </form>
 
