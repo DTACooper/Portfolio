@@ -1,7 +1,7 @@
 /*
 * Function to animate leaving a page
 */
-/*$.fn.leavePage = function() {
+$.fn.leavePage = function() {
 
   this.click(function(event){
 
@@ -16,21 +16,22 @@
       window.location = linkLocation;
     });
   });
-};*/
+};
 
 
 /*
 * Call the leavePage function upon link clicks with the "transition" class
 */
-//$('.transition').leavePage();
+$('.transition').leavePage();
 
 $("#contactForm").validator().on("submit", function (event){
   if(event.isDefaultPrevented()) {
     //handle the invalid form
     formError();
     submitMSG(false, "Did you fill in the form properly?");
-    alert(testing fail);
+
   } else {
+        alert("testing this fail");
     // everything looks good!
     event.preventDefault();
     submitForm();
