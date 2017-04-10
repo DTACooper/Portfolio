@@ -17,7 +17,7 @@ if (isset($_POST['inputName']) && isset($_POST['inputEmail']) && isset($_POST['i
 
     $mail->From = $_POST['inputEmail'];
     $mail->FromName = $_POST['inputName'];
-    $mail->AddAddress('danielcooper@hotmail.co.uk'); //recipient
+    $mail->AddAddress('contact@dantac.co.uk'); //recipient
     $mail->Subject = $_POST['inputSubject'];
     $mail->Headers = 'MIME-Version: 1.0' . "\r\n" . 'Content-Transfer-Encoding: 8bit' . "\r\n" . 'Content-Type: text/plain; charset=UTF-8' . "\r\n";
     $mail->Body = "Name: " . $_POST['inputName'] . "\r\n\r\nMessage: " . stripslashes($_POST['inputMessage']);
@@ -25,7 +25,6 @@ if (isset($_POST['inputName']) && isset($_POST['inputEmail']) && isset($_POST['i
     if (isset($_POST['ref'])) {
         $mail->Body .= "\r\n\r\nRef: " . $_POST['ref'];
     }
-
     if(!$mail->send()) {
         $data = array('success' => false, 'message' => 'Message could not be sent. Mailer Error: ' . $mail->ErrorInfo);
         echo json_encode($data);
