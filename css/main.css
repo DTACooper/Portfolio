@@ -116,18 +116,18 @@ textarea {
      font-family: "Helvetica Neue", Arial, sans-serif;
    }
 
-   ul {
+   .header ul {
        list-style-type: none;
        margin: 0;
        padding: 0;
        overflow: hidden;
    }
 
-   li {
+   .header li {
        float: left;
    }
 
-   li a {
+   .header li a {
      display: block;
      padding: 8px;
      /*background-color: #dddddd;*/
@@ -269,13 +269,45 @@ textarea {
 }
 
 .footer ul {
-    background-color: #333;
+    display:inline-block;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
+
+
+.footer li {
+    float: left;
+}
+
+.footer li a {
+  display: block;
+  padding: 8px;
+  /*background-color: #dddddd;*/
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.site-footer {
+  background-color: #333;
+  line-height: 55px;
+  padding: 0;
+  max-height: 50px;
+}
+
+.site-footer .left {
+  float: right;
+  max-height: 50px;
+}
+
+.site-footer .right {
+  float: right;
+  max-height: 50px;
+}
    /* 12-column responsive grid */
 
    .row {
@@ -313,12 +345,15 @@ textarea {
    @media only screen and (min-width: 321px) {
        /* Larger mobile styles (wider than 320 pixels) */
 
-   }
+}
 
    @media only screen and (min-width: 600px) {
        /* Tablet styles (wider than 600 pixels) */
        .footer {
          position: fixed;
+       }
+       .site-footer .left {
+         float:left;
        }
        body {
          padding-bottom: 8rem;
