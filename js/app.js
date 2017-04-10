@@ -4,12 +4,12 @@ app.config(function ($routeProvider) {
   $routeProvider
     .when('/', {
       controller: 'MainController',
-      templateUrl: "views/main.html"
+      templateUrl: "views/portfolio.html"
     })
-    .when('/portfolio', {
+/*    .when('/portfolio', {
       controller: 'MainController',
       templateUrl: 'views/portfolio.html'
-    })
+    })*/
     .when('/experience', {
       controller: 'MainController',
       templateUrl: 'views/experience.html'
