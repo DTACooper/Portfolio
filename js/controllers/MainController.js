@@ -23,7 +23,7 @@ app.controller('MainController', ['$scope', function($scope) {
                   },
                   {
                     startdate:'09/2011',
-                    enddate:'09/2013',
+                    enddate:'04/2013',
                     company:'Cybyl',
                     title:'Cyber Threat Analyst',
                     text:'Monitoring alerts/notifications and writing client facing reports to inform them of intelligence relevant to their sector of operation or directly to the client’s brand, such as phishing campaigns and planned action by hostile factions. Investigating network based threats by reconstructing activity using http headers, response bodies and volatile session information and any resources such as files which might contain useful metadata. Analysis of scripts/sourcecode/binaries found via secondary detection systems to determine its purpose and any inherent threat to clients. Creating Regular Expressions for use in software to identify threats to clients. This role involved shift work.'
