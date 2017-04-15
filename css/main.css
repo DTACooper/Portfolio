@@ -253,9 +253,13 @@ textarea {
 }
 
 .container {
-  padding: 0;
+
   width: 100%;
   min-width: 250px;
+}
+
+.extraspace {
+  display: inherit;
 }
 
 .footer {
@@ -316,6 +320,7 @@ textarea {
        margin: 0 auto;
    }
 
+
    [class^="col-"] {
        float: left;
        margin: 0 3.84615384615% 0 0;
@@ -347,7 +352,7 @@ textarea {
 
 }
 
-   @media only screen and (min-width: 600px) {
+   @media only screen and (min-width: 570px) {
        /* Tablet styles (wider than 600 pixels) */
        .footer {
          position: fixed;
@@ -361,6 +366,7 @@ textarea {
    }
 
    @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px)  {
+
 
 	/* Force table to not be like tables anymore */
 	table, thead, tbody, th, td, tr {
